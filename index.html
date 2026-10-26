@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Umer Khan | SEO Expert</title>
+    <title>Umer Khan | SEO Expert & Web Developer</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;800&display=swap" rel="stylesheet">
@@ -17,6 +17,11 @@
         header { text-align: center; padding: 80px 20px; background: linear-gradient(180deg, #0a0f18 0%, transparent 100%); }
         
         h1 { font-size: 3.5rem; margin: 10px 0; background: linear-gradient(to right, #fff, var(--primary)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        
+        .nav-btns { display: flex; justify-content: center; gap: 15px; margin-top: 25px; flex-wrap: wrap; }
+        .btn { padding: 12px 30px; border-radius: 50px; text-decoration: none; font-weight: bold; transition: 0.3s; color: white; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); }
+        .btn-blue { background: var(--primary); color: #000; border: none; }
+        .btn:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,242,255,0.2); }
 
         /* GRID */
         .container { max-width: 1400px; margin: 0 auto; padding: 40px 20px; }
@@ -46,77 +51,111 @@
 
 <header>
     <h1>Umer Khan</h1>
-    <p style="font-size: 1.2rem; color: #94a3b8;">Expert SEO Specialist</p>
+    <p style="font-size: 1.2rem; color: #94a3b8;">Expert SEO Specialist & Full Stack Developer</p>
+    
+    <div class="nav-btns">
+        <a href="https://www.linkedin.com/in/ameer-hamza-223567357/" target="_blank" class="btn btn-blue"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </div>
 </header>
 
 <div class="container">
     <div class="portfolio-grid">
-        <!-- 1 -->
+        
+        <!-- NEW PROJECT: AXXESS WORLD WITH YOUR UPLOADED IMAGE -->
+        <div class="card" data-tilt onclick="window.open('https://axxessworld.com/', '_blank')">
+            <div class="card-img"><img src="https://i.ibb.co/6RyX07B4/image-956403.png" alt="Axxess World"></div>
+            <h3>Axxess World – Security Solutions</h3>
+            <p>A high-performance WordPress platform built for security camera systems, surveillance tech, and smart monitoring solutions.</p>
+        </div>
+
         <div class="card" data-tilt onclick="openImg('https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-125231.png')">
-            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-125231.png" alt="Future Designz Results"></div>
+            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-125231.png"></div>
             <h3>Future Designz Results</h3>
             <p>Analytical proof of high-impact SEO growth and ranking success.</p>
         </div>
 
-        <!-- 2 -->
-        <div class="card" data-tilt onclick="openImg('https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-125615.png')">
-            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-125615.png" alt="Digizaro Agency"></div>
-            <h3>Digizaro Agency</h3>
-            <p>Official digital agency website showcasing modern UX and SEO.</p>
-        </div>
-
-        <!-- 3 -->
         <div class="card" data-tilt onclick="openImg('https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-125642.png')">
-            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-125642.png" alt="Toms Pro Handyman"></div>
+            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-125642.png"></div>
             <h3>Toms Pro Handyman (USA)</h3>
             <p>USA-based local service ranking and optimization strategy.</p>
         </div>
 
-        <!-- 4 -->
         <div class="card" data-tilt onclick="openImg('https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-125728.png')">
-            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-125728.png" alt="DMV Radon USA Analytics"></div>
+            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-125728.png"></div>
             <h3>DMV Radon USA Analytics</h3>
             <p>Tracking traffic growth and keyword rankings for radon services.</p>
         </div>
 
-        <!-- 5 -->
         <div class="card" data-tilt onclick="openImg('https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-125804.png')">
-            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-125804.png" alt="Rolik Plumbing"></div>
+            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-125804.png"></div>
             <h3>Rolik Plumbing (USA)</h3>
             <p>Optimized plumbing website currently ranking in target US cities.</p>
         </div>
 
-        <!-- 6 -->
         <div class="card" data-tilt onclick="openImg('https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-125850.png')">
-            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-125850.png" alt="Come Home Happy Traffic"></div>
+            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-125850.png"></div>
             <h3>Come Home Happy Traffic</h3>
             <p>Detailed SEO report of cleaning service business growth.</p>
         </div>
 
-        <!-- 7 -->
-        <div class="card" data-tilt onclick="openImg('https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-125556.png')">
-            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-125556.png" alt="Savage Excess Store"></div>
-            <h3>Savage Excess Store</h3>
-            <p>Modern e-commerce store designed for Future Designz USA.</p>
-        </div>
-
-        <!-- 8 -->
         <div class="card" data-tilt onclick="openImg('https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-130427.png')">
-            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-130427.png" alt="Gemini AI Ranking"></div>
+            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-130427.png"></div>
             <h3>Gemini AI Ranking</h3>
             <p>Achieved top-rated status on Gemini AI for target USA searches.</p>
         </div>
+
+        <div class="card" data-tilt onclick="openImg('https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-130600.png')">
+            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-130600.png"></div>
+            <h3>ChildrenKare USA</h3>
+            <p>Next.js platform for daycare registration. SEO & Technical Lead.</p>
+        </div>
+
+        <div class="card" data-tilt onclick="openImg('https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-130808.png')">
+            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-130808.png"></div>
+            <h3>Cleaning Services Website</h3>
+            <p>Complete WordPress design and SEO for Come Home Happy.</p>
+        </div>
+
+        <div class="card" data-tilt onclick="openImg('https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-141344.png')">
+            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-141344.png"></div>
+            <h3>DMV Radon (Wix)</h3>
+            <p>Professional business site built on Wix for USA radon services.</p>
+        </div>
+
+        <div class="card" data-tilt onclick="openImg('https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-141611.png')">
+            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-141611.png"></div>
+            <h3>Future Designz PK</h3>
+            <p>Corporate presence for Future Designz in Pakistan market.</p>
+        </div>
+
+        <div class="card" data-tilt onclick="openImg('https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-141925.png')">
+            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-141925.png"></div>
+            <h3>Kisan Ghar Traffic</h3>
+            <p>Massive monthly visit boost through advanced agricultural SEO.</p>
+        </div>
+
+        <div class="card" data-tilt onclick="openImg('https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-142051.png')">
+            <div class="card-img"><img src="https://futuredesignz.com/wp-content/uploads/2026/02/Screenshot-2026-02-04-142051.png"></div>
+            <h3>Savage Excess USA Ranking</h3>
+            <p>Current live ranking status and keyword position proof.</p>
+        </div>
+
     </div>
 </div>
 
 <div id="lightbox" onclick="closeImg()">
-    <img id="lbImg" alt="Lightbox Image">
+    <img id="lbImg">
 </div>
+
+<footer>
+    <p>Umer Khan &copy; 2026 | Portfolio</p>
+</footer>
 
 <script>
     VanillaTilt.init(document.querySelectorAll(".card"), { max: 15, speed: 400, glare: true, "max-glare": 0.2, scale: 1.05 });
     function openImg(u) { document.getElementById('lbImg').src = u; document.getElementById('lightbox').style.display = 'flex'; }
     function closeImg() { document.getElementById('lightbox').style.display = 'none'; }
 </script>
+
 </body>
 </html>
